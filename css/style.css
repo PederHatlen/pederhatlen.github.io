@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,400;1,500&display=swap');
+
+@keyframes headerStart {
+    0% {background-position: 0%; opacity: 0%;}
+    50% {background-position: 0%; opacity: 100%;}
+    100% {background-position: 100%; opacity: 100%;}
+}
+@keyframes mainStart {
+    0% {row-gap: 5rem; opacity: 0%; background: #111;}
+    50% {row-gap: 5rem; opacity: 100%; background: #111;}
+    100% {row-gap: 0.75rem; opacity: 100%;background: #000;}
+}
+
+html{height: 100%;}
+body{
+    padding: 0;
+    margin: 0;
+    min-height: 100%;
+    font-family: 'Kanit', sans-serif;
+    background: black;
+    color: #fff;
+    display: grid;
+    grid-template: auto 1fr/1fr;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-style: italic;
+    background: #59f;
+    background: linear-gradient(90deg, #5599ff calc(50% + 5%), #fff calc(50% + 5%), #fff calc(50% + 7.5%), #111 calc(50% + 7.5%));
+    background-size: 200%;
+    animation-name: headerStart;
+    animation-duration: 1s;
+    background-position: 100%;   
+}
+header h1{filter: drop-shadow(0 0 0.25rem #111);}
+main{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0.75rem;
+    animation-name: mainStart;
+    animation-duration: 1s;
+}
+main h2{
+    margin: 0;
+    font-size: 2rem;
+}
+main a{color: #fff;}
+
+#MatrixRain:hover{color: #00d17d;}
+#ExpandingColor:hover{color: #ee2288;}
+#BinaryClock:hover{color: #000; filter: drop-shadow(0 0 0.5rem #fff);}
+#RussPage:hover{color: #CB061D}
+#Spooky:hover{color: #d17e19;}
+#Internetturet:hover{color: #094db2}
