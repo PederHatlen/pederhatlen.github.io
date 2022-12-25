@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 25" style="enable-background:new 0 0 100 25;" xml:space="preserve">
+<linearGradient id="Left" gradientUnits="userSpaceOnUse" x1="0" y1="25" x2="50" y2="50">
+	<stop  offset="0.1" style="stop-color:#046DA4"/>
+	<stop  offset="0.1" style="stop-color:#FFFFFF"/>
+	<stop  offset="0.2" style="stop-color:#FFFFFF"/>
+	<stop  offset="0.2" style="stop-color:#000000"/>
+</linearGradient>
+<linearGradient id="Right" gradientUnits="userSpaceOnUse" x1="50" y1="50" x2="100" y2="25">
+	<stop  offset="0.8" style="stop-color:#000000"/>
+	<stop  offset="0.8" style="stop-color:#FFFFFF"/>
+	<stop  offset="0.9" style="stop-color:#FFFFFF"/>
+	<stop  offset="0.9" style="stop-color:#046DA4"/>
+</linearGradient>
+<rect x="0" style="fill:url(#Left);" width="50" height="25"/>
+<rect x="50" style="fill:url(#Right);" width="50" height="25"/>
+</svg>
